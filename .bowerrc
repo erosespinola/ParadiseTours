@@ -1,0 +1,8 @@
+{
+  	"directory": "public/components",
+  	"json": "bower.json",
+ 	"registry": "http://bower.herokuapp.com",
+	"proxy":"http://www-proxy.us.oracle.com:80/",
+	"https-proxy":"http://www-proxy.us.oracle.com:80/",
+	"strict-ssl":false
+}

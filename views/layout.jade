@@ -1,0 +1,61 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width')
+    title Paradise Tours
+    block css
+      link(rel='stylesheet', href='css/style.css')
+      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Karla:400,700italic,700,400italic')
+      link(rel='stylesheet', href='css/font-awesome.min.css')
+      link(rel='stylesheet', href='css/bootstrap.css')
+      link(rel='stylesheet', href='rs-plugin/css/settings.css', media='screen')
+      link(rel='stylesheet', href='css/dropdown.css')
+      link(rel='stylesheet', href='css/owl.carousel.css')
+      link(rel='stylesheet', href='css/global.css')
+      link(rel='stylesheet', href='css/style.css')
+      link(rel='stylesheet', href='css/responsive.css')
+      link(rel='stylesheet/less', href='css/skin.less')
+      
+  body
+    //- Loader
+    .loader-block
+      .loader
+
+    //- Wrapper
+    div#wrapper.homepage.homepage-1
+      //- Header
+      header#header.header
+        //- Primary header
+        .primary-header
+          .container
+            .row
+              .col-xs-12.col-sm-6
+                .mail
+                  img(src='img/icon-mail.png' alt='')
+                  span #{lang.index.email}  
+                    a(href='mailto:mail@company.com') email@some.com
+              .col-xs-12.col-sm-6
+                .social-wrap.clearfix
+                  a.request(href='request-a-quote.html') #{lang.index.link} 
+                  ul.social
+                    li
+                      a(href="#")
+                        i.fa.fa-facebook
+    
+    block content
+
+
+
+    block js
+      script(type="text/javascript", src="js/jquery-1.11.3.min.js")
+      script(type="text/javascript", src="js/less.js")
+      script(type="text/javascript", src="js/owl.carousel.js")
+      script(type="text/javascript", src="js/jquery.selectbox-0.2.min.js")
+      script(type="text/javascript", src="js/parallax.js")
+      script(type="text/javascript", src="js/jquery.themepunch.tools.min.js")
+      script(type="text/javascript", src="js/jquery.themepunch.revolution.min.js")
+      script(type="text/javascript", src="js/revolution.js")
+      script(type="text/javascript", src="js/theme-option/style-switcher/assets/js/less.js")
+      script(type="text/javascript", src="js/script.js")
+      script(type="text/javascript", src="js/site.js")
