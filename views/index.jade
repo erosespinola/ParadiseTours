@@ -1,5 +1,230 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .bannercontainer.spacetop
+    .banner
+      ul
+        li(data-transition='random', data-slotamount='1')
+          img(src='img/banner-plane.jpg', alt='')
+          .banner-text
+            .caption.sft.big_white(data-x='0', data-y='100', data-speed='center', data-start='1700', data-easing='Power4.easeInOut')
+              a.shipping(href='#') Servicio
+            .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
+              h2
+                | ALGO SOBRE
+                | DE TU
+                | SERVICIO O PROMO
+            .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
+              a.services-link(href='service.html') our services
+        li(data-transition='random', data-slotamount='1')
+          img(src='img/banner-train.jpg', alt='')
+          .banner-text
+            .caption.sft.big_white(data-x='0', data-y='100', data-speed='700', data-start='1700', data-easing='Power4.easeInOut')
+              a.shipping(href='#') ground shipping
+            .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
+              h2
+                | ALGO SOBRE
+                | DE TU
+                | SERVICIO O PROMO
+            .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
+              a.services-link(href='service.html') our services
+        li(data-transition='random', data-slotamount='1')
+          img(src='img/banner-truck.jpg', alt='')
+          .banner-text
+            .caption.sft.big_white(data-x='0', data-y='100', data-speed='700', data-start='1700', data-easing='Power4.easeInOut')
+              a.shipping(href='#') ground shipping
+            .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
+              h2
+                | ALGO SOBRE
+                | DE TU
+                | SERVICIO O PROMO
+            .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
+              a.services-link(href='service.html') nuestros servicios
+  
+
+  section#section
+    .section
+      .services
+        .container
+          .row
+            .col-xs-12
+              .heading
+                span SERVICIOS DE TRANSPORTE
+                h2 NUESTROS SERVICIOS
+          #services-slides.services-slider
+            .slides-tab.zoom
+              figure
+                a(href='#')
+                  img(src='img/goods-train.jpg', alt='')
+              .slides-text
+                h4
+                  a(href='#') PRIMER SERVICIO
+                p
+                  | Algo interesante
+                  | sobre este
+                  | servicio.
+                a.read-more(href='#')
+                  | leer más
+                  span >
+            .slides-tab.zoom
+              figure
+                a(href='#')
+                  img(src='img/plane.jpg', alt='')
+              .slides-text
+                h4
+                  a(href='#') SEGUNDO SERVICIO
+                p
+                  | Algo interesante
+                  | sobre este
+                  | servicio.
+                a.read-more(href='#')
+                  | leer más 
+                  span >
+            .slides-tab.zoom
+              figure
+                a(href='#')
+                  img(src='img/yard.jpg', alt='')
+              .slides-text
+                h4
+                  a(href='#') TERCER SERVICIO
+                p
+                  | Algo interesante
+                  | sobre este
+                  | servicio.
+                a.read-more(href='#')
+                  | leer más
+                  span >
+            
+      .features
+        .container
+          .row
+            .col-xs-12.col-sm-4
+              .features-text
+                .heading
+                  span CARACTERÍSTICAS
+                  h3
+                    | OFRECEMOS SOLUCIONES
+                    | RÁPIDAS Y ÚNICAS
+                    | PARA TU TRANSPORTE
+                p
+                  | Descripción general
+                  | de las característica
+                  | que ofrecen.
+                a.services-link.button(href='service.html') nuestros servicios
+            .col-xs-12.col-sm-8.custom-padding
+              .row
+                .col-xs-12.col-sm-6
+                  .features-tab
+                    i.icon-ship
+                    .tab-text
+                      h5 CARACTERÍSTICA UNO
+                      p
+                        | Algo interesante
+                        | sobre este
+                        | la característica.
+                .col-xs-12.col-sm-6
+                  .features-tab
+                    i.icon-train
+                    .tab-text
+                      h5 CARACTERÍSTICA DOS
+                      p
+                        | Algo interesante
+                        | sobre este
+                        | la característica.
+                .col-xs-12.col-sm-6
+                  .features-tab
+                    i.icon-plane
+                    .tab-text
+                      h5 CARACTERÍSTICA TRES
+                      p
+                        | Algo interesante
+                        | sobre este
+                        | la característica.
+                .col-xs-12.col-sm-6
+                  .features-tab
+                    i.icon-clock
+                    .tab-text
+                      h5 CARACTERÍSTICA CUATRO
+                      p
+                        | Algo interesante
+                        | sobre este
+                        | la característica.
+      
+      .about
+        .figure.parallax
+        .transport-king
+          .about-us
+            .description
+              .heading
+                span UN POCO SOBRE NOSOTROS
+                h3 SOBRE PARADISE TOURS
+              p
+                | Pequeña descripción
+                | de la empresa, objetivos, fundador,
+                | estándares, etc.
+          .testimonial-section
+            blockquote.custom-blockquote
+              .spanish
+                p
+                  | Mensaje de la misión.
+              footer.mission
+                h5 NUESTRA MISIÓN
+                span Mensaje de #NOMBRE# DEL FUNDADOR#.
+      
+      .testimonial
+        .container
+          .row
+            .col-xs-12.center
+              .heading
+                span Qué opina la gente
+                h2 testimonios
+              .design-line
+                span.design
+          #testimonial-text.testimonial-text
+            .feedback
+              blockquote.custom-quote
+                span.fa.fa-quote-left.custom-fa
+                p
+                  | Primer testimonio
+                footer
+                  h6
+                    | JOHNATHAN DOE 
+                    span Diseñador
+            .feedback
+              blockquote.custom-quote
+                span.fa.fa-quote-left.custom-fa
+                p
+                  | Segundo testimonio
+                footer
+                  h6
+                    | JOHNATHAN DOE 
+                    span Diseñador
+            .feedback
+              blockquote.custom-quote
+                span.fa.fa-quote-left
+                p
+                  | Tercer testimonio
+                footer
+                  h6
+                    | JOHNATHAN DOE 
+                    span Diseñador
+
+            .feedback
+              blockquote.custom-quote
+                span.fa.fa-quote-left
+                p
+                  | Cuarto testimonio
+                footer
+                  h6
+                    | JOHNATHAN DOE 
+                    span Diseñador
+      
+      .query
+        .container
+          .row
+            .col-xs-12.col-sm-10
+              h5 AÚN TIENES DUDAS DE NUESTROS SERVICIOS?
+              p
+                | Podemos ayudarte con todas tus dudas, solamente tienes que contactarnos.
+            .col-xs-12.col-sm-2
+              a.contact-us.button(href='contact-us.html') Contáctanos

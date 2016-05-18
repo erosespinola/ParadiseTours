@@ -32,20 +32,101 @@ html(lang='en')
             .row
               .col-xs-12.col-sm-6
                 .mail
-                  img(src='img/icon-mail.png' alt='')
-                  span #{lang.index.email}  
+                  img(src='img/icon-mail.png' alt='mail')
+                  span #{lang.layout.email}  
                     a(href='mailto:mail@company.com') email@some.com
               .col-xs-12.col-sm-6
                 .social-wrap.clearfix
-                  a.request(href='request-a-quote.html') #{lang.index.link} 
+                  a.request(href='request-a-quote.html') #{lang.layout.link} 
                   ul.social
                     li
                       a(href="#")
                         i.fa.fa-facebook
-    
+        
+        //- Main header
+        .main-header
+          .container
+            .row
+              .col-xs-12.hidden-xs
+                .call-us
+                  ul
+                    li
+                      img(src='img/iphone.png', alt='Phone')
+                      span.transport
+                        | #{lang.layout.call.first} 
+                        span
+                        | #{lang.layout.call.second}
+                    li
+                      a(href='tel:5917890123') 591 7890 123
+              .col-xs-12.col-sm-3
+                a.logo(href='/')
+                  img(src='img/logo.png', alt='Logo')
+              .col-xs-12.col-sm-9.custom-nav
+                nav
+                  #cssmenu
+                    ul.navigation
+                      li
+                        a(href='/') #{lang.layout.home}
+                      li
+                        a(href='#') #{lang.layout.services}
+                      li
+                        a(href='#') #{lang.layout.gallery}
+                      li
+                        a(href='#') #{lang.layout.location}
+                      li
+                        a(href='#') #{lang.layout.about}
+                      li
+                        a(href='#') #{lang.layout.contact}
+                .nav-icon
+                  span
+                  span
+                  span
+
     block content
 
-
+    //- Footer area
+  footer#footer
+    .footer.clearfix
+      .container
+        .row
+          .col-xs-12.col-sm-4
+            .quick-links
+              h5 #{lang.layout.quick}
+            .quick-list
+              ul
+                li
+                  a(href='/') #{lang.layout.home}
+                li
+                  a(href='#') #{lang.layout.services}
+                li
+                  a(href='#') #{lang.layout.gallery}
+            .quick-list
+              ul
+                li
+                  a(href='#') #{lang.layout.location}
+                li
+                  a(href='#') #{lang.layout.about}
+                li
+                  a(href='#') #{lang.layout.contact}
+          .col-xs-12.col-sm-4
+            .our-address
+              h5 #{lang.layout.contact}
+              .address
+                h6 Paradise Tours
+                address #{lang.layout.address}
+                .phone
+                  span
+                    | #{lang.layout.phone} : 
+                    a(href='tel:5917890123') 591 7890 123
+                  span
+                    | #{lang.layout.email} : 
+                    a(href='mail') info@transporttheme.com
+        .row.custom-row
+          .col-xs-12.col-sm-5
+            .copyright
+              span
+                | Copyright 2015. All Rights Reserved by 
+                a(href='/') Paradise Tours.
 
     block js
       script(type="text/javascript", src="js/jquery-1.11.3.min.js")
@@ -56,6 +137,5 @@ html(lang='en')
       script(type="text/javascript", src="js/jquery.themepunch.tools.min.js")
       script(type="text/javascript", src="js/jquery.themepunch.revolution.min.js")
       script(type="text/javascript", src="js/revolution.js")
-      script(type="text/javascript", src="js/theme-option/style-switcher/assets/js/less.js")
       script(type="text/javascript", src="js/script.js")
       script(type="text/javascript", src="js/site.js")

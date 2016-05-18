@@ -167,7 +167,7 @@ input:focus, textarea:focus, button:focus {
 	transition: all 0.2s ease-in-out;
 }
 [class^="icon-"], [class*="icon-"] {
-	background-image: url(../images/sprite.png);
+	background-image: url(../img/sprite.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -854,7 +854,7 @@ figure {
 }
 /*Homepage 2 footer*/
 .homepage-2 .footer {
-	background: url("../images/footer-bg.jpg") no-repeat;
+	background: url("../img/footer-bg.jpg") no-repeat;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
 }

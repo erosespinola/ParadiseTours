@@ -1,6 +1,20 @@
 {
-	"index": {
+	"layout": {
 		"email": "Contáctanos por correo:",
-		"link": "Más información"
+		"link": "Más información",
+		"call": {
+			"first": "Lláma ahora para",
+			"second": "tu transporte"
+		},
+		"home": "Inicio",
+		"services": "Servicios",
+		"gallery": "Galería",
+		"location": "Ubicación",
+		"about": "Sobre nosotros",
+		"contact": "Contacto",
+		"quick": "Enlaces rápidos",
+		"phone": "Teléfono",
+		"email": "Correo electrónico",
+		"address": "Dirección de la compañía"
 	}
 }

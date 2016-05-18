@@ -356,7 +356,7 @@ margin: 0 0 0 16px;
 	position: absolute;
 	height: 100%;
 	float: left;
-	background: url("../images/train.jpg") no-repeat;
+	background: url("../img/train.jpg") no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
