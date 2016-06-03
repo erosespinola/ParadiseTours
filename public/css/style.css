@@ -36,6 +36,7 @@
 .homepage {
 	overflow: hidden;
 }
+
 /*Styling for banner section*/
 .banner {
 	position: relative;
@@ -1319,6 +1320,10 @@ html .query {
 /*5.) Service Details*/
 .homepage h1 {
 	font-weight: 900;
+}
+
+.img-logo{
+	height: 110px;
 }
 .services-details {
 	padding: 70px 0 156px;

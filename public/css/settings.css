@@ -535,6 +535,7 @@ text-shadow:none;
 -moz-transition:all 0.2s ease-out;
 -o-transition:all 0.2s ease-out;
 -ms-transition:all 0.2s ease-out;
+line-height: normal;
 }
 
 .tp-caption a:hover {
@@ -1595,7 +1596,10 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 
 
 
-.tp-simpleresponsive a{	text-decoration:none}
+.tp-simpleresponsive a{	
+	text-decoration:none; 
+	line-height: normal; 
+}
 
 .tp-simpleresponsive ul,
 .tp-simpleresponsive ul li,

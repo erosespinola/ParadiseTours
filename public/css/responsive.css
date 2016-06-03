@@ -797,7 +797,6 @@
 /* Mobile
  ----------------------------------------*/
 @media only screen and (max-width: 767px) {
-	/*homepage8 start*/
 .homepage8 .tab-content{
 	padding-top:0;
 }
@@ -991,6 +990,7 @@
 		overflow: hidden;
 		margin-bottom: 30px;
 	}
+
 	.call-us ul {
 		margin-bottom: 10px;
 		font-size: 0;

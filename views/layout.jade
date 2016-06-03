@@ -30,12 +30,12 @@ html(lang='en')
         .primary-header
           .container
             .row
-              .col-xs-12.col-sm-6
+              .col-xs-12.col-sm-6.hidden-xs
                 .mail
                   img(src='img/icon-mail.png' alt='mail')
                   span #{lang.layout.email}  
                     a(href='mailto:mail@company.com') email@some.com
-              .col-xs-12.col-sm-6
+              .col-xs-12.col-sm-6.hidden-xs
                 .social-wrap.clearfix
                   a.request(href='#') #{lang.layout.link} 
                   ul.social
@@ -60,7 +60,7 @@ html(lang='en')
                       a(href='tel:5917890123') 591 7890 123
               .col-xs-12.col-sm-3
                 a.logo(href='/')
-                  img(src='img/logo.png', alt='Logo')
+                  img.img-logo(src='img/paradise/logo.jpg', alt='Logo')
               .col-xs-12.col-sm-9.custom-nav
                 nav
                   #cssmenu

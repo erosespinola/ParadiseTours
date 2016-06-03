@@ -95,7 +95,7 @@ body {
 	color: #94949d;
 	font-family: 'karla', sans-serif;
 	font-weight: 400;
-	background: #fdfdfd;
+	background: #fff;
 	-webkit-font-smoothing: antialiased;
 }
 .btn {
@@ -381,8 +381,14 @@ body #header.fixed.intelligent.fix .main-header {
 	top: 0;
 }
 .logo {
-	display: block;
-	margin-top: -9px;
+		display: block;
+		margin-top: -45px;
+	}
+@media only screen and (max-width: 767px) {
+	.logo {
+		display: block;
+		margin-top: -10px;
+	}
 }
 .call-us ul {
 	list-style-type: none;
