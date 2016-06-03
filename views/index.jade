@@ -7,40 +7,10 @@ block content
         li(data-transition='random', data-slotamount='1')
           img(src='img/banner-plane.jpg', alt='')
           .banner-text
-            .caption.sft.big_white(data-x='0', data-y='100', data-speed='center', data-start='1700', data-easing='Power4.easeInOut')
-              a.shipping(href='#') Servicio
             .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
-              h2
-                | ALGO SOBRE
-                | DE TU
-                | SERVICIO O PROMO
+              h2 #{lang.index.banner} 
             .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
-              a.services-link(href='service.html') our services
-        li(data-transition='random', data-slotamount='1')
-          img(src='img/banner-train.jpg', alt='')
-          .banner-text
-            .caption.sft.big_white(data-x='0', data-y='100', data-speed='700', data-start='1700', data-easing='Power4.easeInOut')
-              a.shipping(href='#') ground shipping
-            .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
-              h2
-                | ALGO SOBRE
-                | DE TU
-                | SERVICIO O PROMO
-            .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
-              a.services-link(href='service.html') our services
-        li(data-transition='random', data-slotamount='1')
-          img(src='img/banner-truck.jpg', alt='')
-          .banner-text
-            .caption.sft.big_white(data-x='0', data-y='100', data-speed='700', data-start='1700', data-easing='Power4.easeInOut')
-              a.shipping(href='#') ground shipping
-            .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
-              h2
-                | ALGO SOBRE
-                | DE TU
-                | SERVICIO O PROMO
-            .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
-              a.services-link(href='service.html') nuestros servicios
-  
+              a.services-link(href='service.html') #{lang.index.ourServices}  
 
   section#section
     .section
@@ -49,50 +19,38 @@ block content
           .row
             .col-xs-12
               .heading
-                span SERVICIOS DE TRANSPORTE
-                h2 NUESTROS SERVICIOS
+                span #{lang.index.transportServices} 
+                h2 #{lang.index.ourServices} 
           #services-slides.services-slider
             .slides-tab.zoom
               figure
                 a(href='#')
-                  img(src='img/goods-train.jpg', alt='')
+                  img(src='img/paradise/accesible.jpg', alt='Accesible')
               .slides-text
                 h4
-                  a(href='#') PRIMER SERVICIO
-                p
-                  | Algo interesante
-                  | sobre este
-                  | servicio.
-                a.read-more(href='#')
-                  | leer más
+                  a(href='#') #{lang.index.serviceOne.name} 
+                p #{lang.index.serviceOne.description} 
+                a.read-more(href='#') #{lang.index.readMore} 
                   span >
             .slides-tab.zoom
               figure
                 a(href='#')
-                  img(src='img/plane.jpg', alt='')
+                  img(src='img/paradise/turistico.jpg', alt='Turistico')
               .slides-text
                 h4
-                  a(href='#') SEGUNDO SERVICIO
-                p
-                  | Algo interesante
-                  | sobre este
-                  | servicio.
-                a.read-more(href='#')
-                  | leer más 
+                  a(href='#') #{lang.index.serviceTwo.name} 
+                p #{lang.index.serviceTwo.description} 
+                a.read-more(href='#') #{lang.index.readMore} 
                   span >
             .slides-tab.zoom
               figure
                 a(href='#')
-                  img(src='img/yard.jpg', alt='')
+                  img(src='img/paradise/nacionales.jpg', alt='Nacionales')
               .slides-text
                 h4
-                  a(href='#') TERCER SERVICIO
-                p
-                  | Algo interesante
-                  | sobre este
-                  | servicio.
-                a.read-more(href='#')
-                  | leer más
+                  a(href='#') #{lang.index.serviceThree.name} 
+                p #{lang.index.serviceThree.description} 
+                a.read-more(href='#') #{lang.index.readMore} 
                   span >
             
       .features
@@ -101,54 +59,32 @@ block content
             .col-xs-12.col-sm-4
               .features-text
                 .heading
-                  span CARACTERÍSTICAS
-                  h3
-                    | OFRECEMOS SOLUCIONES
-                    | RÁPIDAS Y ÚNICAS
-                    | PARA TU TRANSPORTE
-                p
-                  | Descripción general
-                  | de las característica
-                  | que ofrecen.
-                a.services-link.button(href='service.html') nuestros servicios
+                  span #{lang.index.features} 
+                  h3 #{lang.index.offer.name} 
+                p #{lang.index.offer.description} 
+                a.services-link.button(href='service.html') #{lang.index.ourServices} 
             .col-xs-12.col-sm-8.custom-padding
               .row
                 .col-xs-12.col-sm-6
                   .features-tab
-                    i.icon-ship
+                    i.fa.fa-certificate.fa-4x
                     .tab-text
-                      h5 CARACTERÍSTICA UNO
-                      p
-                        | Algo interesante
-                        | sobre este
-                        | la característica.
+                      h5 #{lang.index.featureOne} 
                 .col-xs-12.col-sm-6
                   .features-tab
-                    i.icon-train
+                    i.fa.fa-wheelchair.fa-4x
                     .tab-text
-                      h5 CARACTERÍSTICA DOS
-                      p
-                        | Algo interesante
-                        | sobre este
-                        | la característica.
+                      h5 #{lang.index.featureTwo} 
                 .col-xs-12.col-sm-6
                   .features-tab
-                    i.icon-plane
+                    i.fa.fa-car.fa-4x
                     .tab-text
-                      h5 CARACTERÍSTICA TRES
-                      p
-                        | Algo interesante
-                        | sobre este
-                        | la característica.
+                      h5 #{lang.index.featureThree} 
                 .col-xs-12.col-sm-6
                   .features-tab
-                    i.icon-clock
+                    i.fa.fa-user.fa-4x
                     .tab-text
-                      h5 CARACTERÍSTICA CUATRO
-                      p
-                        | Algo interesante
-                        | sobre este
-                        | la característica.
+                      h5 #{lang.index.featureFour} 
       
       .about
         .figure.parallax
@@ -156,75 +92,47 @@ block content
           .about-us
             .description
               .heading
-                span UN POCO SOBRE NOSOTROS
-                h3 SOBRE PARADISE TOURS
-              p
-                | Pequeña descripción
-                | de la empresa, objetivos, fundador,
-                | estándares, etc.
+                span #{lang.index.aboutUs.title} 
+                h3 #{lang.index.aboutUs.company}
+              p #{lang.index.aboutUs.description}
           .testimonial-section
             blockquote.custom-blockquote
               .spanish
-                p
-                  | Mensaje de la misión.
+                p #{lang.index.mission}
               footer.mission
-                h5 NUESTRA MISIÓN
-                span Mensaje de #NOMBRE# DEL FUNDADOR#.
+                h5 #{lang.index.ourMission}
+                span #{lang.index.ceoMessage}
       
       .testimonial
         .container
           .row
             .col-xs-12.center
               .heading
-                span Qué opina la gente
-                h2 testimonios
+                span #{lang.index.people}
+                h2 #{lang.index.testimony}
               .design-line
                 span.design
           #testimonial-text.testimonial-text
             .feedback
               blockquote.custom-quote
                 span.fa.fa-quote-left.custom-fa
-                p
-                  | Primer testimonio
+                p #{lang.index.firstTestimony.title}
                 footer
-                  h6
-                    | JOHNATHAN DOE 
-                    span Diseñador
+                  h6 #{lang.index.firstTestimony.name}
+                    span #{lang.index.firstTestimony.career}
             .feedback
               blockquote.custom-quote
                 span.fa.fa-quote-left.custom-fa
-                p
-                  | Segundo testimonio
+                p #{lang.index.secondTestimony.title}
                 footer
-                  h6
-                    | JOHNATHAN DOE 
-                    span Diseñador
-            .feedback
-              blockquote.custom-quote
-                span.fa.fa-quote-left
-                p
-                  | Tercer testimonio
-                footer
-                  h6
-                    | JOHNATHAN DOE 
-                    span Diseñador
-
-            .feedback
-              blockquote.custom-quote
-                span.fa.fa-quote-left
-                p
-                  | Cuarto testimonio
-                footer
-                  h6
-                    | JOHNATHAN DOE 
-                    span Diseñador
+                  h6 #{lang.index.secondTestimony.name}
+                    span #{lang.index.secondTestimony.career}
       
       .query
         .container
           .row
             .col-xs-12.col-sm-10
-              h5 AÚN TIENES DUDAS DE NUESTROS SERVICIOS?
-              p
-                | Podemos ayudarte con todas tus dudas, solamente tienes que contactarnos.
+              h5 #{lang.index.doubts}
+              p #{lang.index.weCanHelp}
             .col-xs-12.col-sm-2
-              a.contact-us.button(href='contact-us.html') Contáctanos
+              a.contact-us.button(href='contact-us.html') #{lang.index.contactUs}

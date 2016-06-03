@@ -16,5 +16,55 @@
 		"phone": "Teléfono",
 		"email": "Correo electrónico",
 		"address": "Dirección de la compañía"
+	},
+	"index": {
+		"banner": "Transporte turístico de lujo y accesible.",
+		"ourServices": "Nuestros servicios",
+		"transportServices": "Servicios de transporte",
+		"serviceOne": {
+			"name": "Transporte accesible",
+			"description": "Disfruta de tu estancia en Bahía de Banderas en vehículo equipado con rampa hidráulica de máxima seguridad y protección. Además, una inigualable atención personalizada."
+		},
+		"serviceTwo": {
+			"name": "Recorridos turísticos",
+			"description": "Vive la experiencia de nuestros recorridos turísticos, riqueza gastronómica y cultural del centro de la ciudad con la calidez que nos caracteriza, de la mano de nuestros guías de turistas certificados por SECTUR."
+		},
+		"serviceThree": {
+			"name": "Translados locales/nacionales",
+			"description": "Ofrecemos traslados a congresos y convenciones dentro y fuera de la ciudad, transporte de empleados y estudiantes, garantizando un servicio de calidad y seguridad en todo momento."
+		},
+		"readMore": "Leer más",
+		"features": "Características",
+		"offer": {
+			"name": "Soluciones rápidas y únicas para tu transporte",
+			"description": "Ofrecemos todo tipo de transporte de lujo, accesible y de calidad con atención bilingüe personalizada."
+		},
+		"featureOne": "Guias certificados por SECTUR",
+		"featureTwo": "Rampa hidráulica",
+		"featureThree": "Vehículos de lujo",
+		"featureFour": "Atención personalizada",
+		"aboutUs": {
+			"title": "Sobre nosotros",
+			"company": "Paradise Tours",
+			"description": "Estamos enfocados en satisfacer y superar las expectativas de nuestros visitantes, siendo una alternativa de turismo accesible, con vehículos equipados en perfectas condiciones para el traslado de personas con capacidades diferentes."
+		},
+		"ourMission": "Nuestra misión",
+		"mission": "Proporcionar un servicio de transporte accesible de lujo, confiable y de calidad, en un marco de comodidad y estrictas medidas de seguridad para nuestros clientes locales, nacionales y extranjeros con guías de turistas certificados que garantizan una experiencia única e inigualable.",
+		"ceoMessage": "Mensaje de Rafael Maldonado, fundador.",
+		"people": "Qué opina la gente",
+		"testimony": "Testimonios",
+		"firstTestimony": {
+			"title": "Primer testimonio",
+			"name": "John Doe",
+			"career": "Diseñador"
+		},
+		"secondTestimony": {
+			"title": "Segundo testimonio",
+			"name": "Alicia Doe",
+			"career": "Ingeniera"
+		},
+		"doubts": "¿Tienes dudas sobre nuestros servicios?",
+		"weCanHelp": "Podemos ayudarte con todas tus dudas, solamente tienes que contactarnos.",
+		"contactUs": "Contáctanos"
 	}
 }

@@ -311,9 +311,10 @@ margin: 0 0 0 16px;
 }
 .tab-text {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	width: 224px;
-	margin-left: 27px;
+	margin-left: 20px;
+
 }
 /*styling for about*/
 
@@ -329,28 +330,24 @@ margin: 0 0 0 16px;
 	height: 70px;
 	vertical-align: top;
 	width: 58px;
-	margin-top: 13px;
 }
 .icon-train {
 	background-position: -76px 0;
 	height: 70px;
 	vertical-align: top;
 	width: 60px;
-	margin-top: 13px;
 }
 .icon-plane {
 	background-position: -167px 0;
 	height: 70px;
 	vertical-align: top;
 	width: 60px;
-	margin-top: 3px;
 }
 .icon-clock {
 	background-position: -253px -3px;
 	height: 70px;
 	vertical-align: top;
 	width: 60px;
-	margin-top: 7px;
 }
 .figure {
 	position: absolute;
@@ -370,8 +367,8 @@ margin: 0 0 0 16px;
 	}
 .tab-text > h5 {
 	font-weight: 800;
-	margin-bottom: 5px;
-	text-transform: uppercase;
+	float: left;
+	vertical-align: top;
 }
 .transport-king {
 	width:50%;
@@ -442,7 +439,7 @@ margin: 0 0 0 16px;
 }
 .spanish p {
 	color: #ffffff;
-	line-height: 2;
+	line-height: 1.3;
 	letter-spacing: -0.2px;
 	font-size: 18px;
 }

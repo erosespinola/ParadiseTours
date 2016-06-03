@@ -1,14 +1,17 @@
 var fs = require('fs');
 var express = require('express');
 var router = express.Router();
+
 /* GET home page. */
-
-var langFile = 'es.mx.json';
-
 router.get('/', function(req, res) {
-	var encoding = 'utf8';
-	var lang = fs.readFileSync('lang/' + langFile, encoding);
-	res.render('index', { lang: JSON.parse(lang) });
+	console.log("hola");
+
+	var langFile = 'es.mx.json';
+	fs.readFile('lang/' + langFile, (err, data) => {
+		if (err) 
+			throw err;
+		res.render('index', { lang: JSON.parse(data) });
+	});	
 });
 
 module.exports = router;
