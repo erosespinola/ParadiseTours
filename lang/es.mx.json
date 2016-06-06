@@ -15,7 +15,8 @@
 		"quick": "Enlaces rápidos",
 		"phone": "Teléfono",
 		"email": "Correo electrónico",
-		"address": "Dirección de la compañía"
+		"address": "Calle Tai #46, Colonia Aramara, 48314. Puerto Vallarta, Jalisco, México.",
+		"phoneNumber": "(322) 225 0839"
 	},
 	"index": {
 		"banner": "Transporte turístico de lujo y accesible.",
@@ -30,7 +31,7 @@
 			"description": "Vive la experiencia de nuestros recorridos turísticos, riqueza gastronómica y cultural del centro de la ciudad con la calidez que nos caracteriza, de la mano de nuestros guías de turistas certificados por SECTUR."
 		},
 		"serviceThree": {
-			"name": "Translados locales/nacionales",
+			"name": "Translados locales y nacionales",
 			"description": "Ofrecemos traslados a congresos y convenciones dentro y fuera de la ciudad, transporte de empleados y estudiantes, garantizando un servicio de calidad y seguridad en todo momento."
 		},
 		"readMore": "Leer más",
@@ -66,5 +67,10 @@
 		"doubts": "¿Tienes dudas sobre nuestros servicios?",
 		"weCanHelp": "Podemos ayudarte con todas tus dudas, solamente tienes que contactarnos.",
 		"contactUs": "Contáctanos"
+	},
+	"services": {
+		"our": "Nuestros",
+		"more": "Encuentra más en nuestra",
+		"gallery": "Descubre más sobre nuestros servicios y transporte en nuestra galería."
 	}
 }

@@ -1,0 +1,85 @@
+extends layout
+
+block content
+
+  section#section
+    .section
+      .services-details
+        .container
+          .row
+            .col-xs-12
+              .heading
+                span #{lang.services.our}
+                h3 #{lang.layout.services}
+            .col-xs-12
+              .logistics
+                img(src='img/paradise/services1.png', alt='Services')
+                h4 #{lang.index.serviceOne.name} 
+                p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                h4 #{lang.index.serviceTwo.name} 
+                p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                h4 #{lang.index.serviceThree.name} 
+                p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                .specialtys.clearfix
+                  h5 #{lang.index.features} 
+                  .col-xs-12.col-sm-6.custom-zero-padding
+                    ul
+                      li
+                        span.icon-check
+                        | 														#{lang.index.featureOne}
+                      li
+                        span.icon-check
+                        | 														#{lang.index.featureTwo}
+                  .col-xs-12.col-sm-6.custom-footer-padding
+                    ul
+                      li
+                        span.icon-check
+                        | 														#{lang.index.featureThree}
+                      li
+                        span.icon-check
+                        | 														#{lang.index.featureFour}
+                p
+                  | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and mo
+      .more-services
+        .container
+          .row
+            .col-xs-12.col-sm-3
+              .heading
+                span #{lang.services.more}
+                h3 #{lang.layout.services}
+              p #{lang.services.gallery}
+            .col-xs-12.col-sm-9
+              #more-slides.more-slides
+                .more-tab.zoom
+                  figure
+                    a(href='/gallery')
+                      img(src='img/paradise/sectur.png', alt='')
+                  .more-text
+                    h6
+                      a(href='/gallery') #{lang.index.featureOne}
+                .more-tab.zoom
+                  figure
+                    a(href='/gallery')
+                      img(src='img/paradise/accesible.jpg', alt='')
+                  .more-text
+                    h6
+                      a(href='/gallery') #{lang.index.featureTwo}
+                .more-tab.zoom
+                  figure
+                    a(href='/gallery')
+                      img(src='img/paradise/turistico2.jpg', alt='')
+                  .more-text
+                    h6
+                      a(href='/gallery') #{lang.index.featureThree}
+
+      .query
+        .container
+          .row
+            .col-xs-12.col-sm-10
+              h5 #{lang.index.doubts}
+              p #{lang.index.weCanHelp}
+            .col-xs-12.col-sm-2
+              a.contact-us.button(href='contact-us.html') #{lang.index.contactUs}

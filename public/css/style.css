@@ -60,6 +60,8 @@
 	margin: 0 auto;
 	width: 100%;
 	z-index: 999;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
 }
 .tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
 	position: static !important;
@@ -354,7 +356,7 @@ margin: 0 0 0 16px;
 	position: absolute;
 	height: 100%;
 	float: left;
-	background: url("../img/train.jpg") no-repeat;
+	background: url("../img/paradise/accesible.jpg") no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -1550,7 +1552,7 @@ width: 263px;
 .banner-image-plane {
 	width: 100%;
 	height: 298px;
-	background: url("../images/service-detail-banner.jpg") no-repeat;
+	background: url("../img/service-detail-banner.jpg") no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }

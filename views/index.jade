@@ -5,7 +5,7 @@ block content
     .banner
       ul
         li(data-transition='random', data-slotamount='1')
-          img(src='img/banner-plane.jpg', alt='')
+          img(src='img/paradise/banner.jpg', alt='Banner')
           .banner-text.hidden-xs
             .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
               h2 #{lang.index.banner} 
@@ -24,33 +24,33 @@ block content
           #services-slides.services-slider
             .slides-tab.zoom
               figure
-                a(href='#')
+                a(href='/services')
                   img(src='img/paradise/accesible.jpg', alt='Accesible')
               .slides-text
                 h4
-                  a(href='#') #{lang.index.serviceOne.name} 
+                  a(href='/services') #{lang.index.serviceOne.name} 
                 p #{lang.index.serviceOne.description} 
-                a.read-more(href='#') #{lang.index.readMore} 
+                a.read-more(href='/services') #{lang.index.readMore} 
                   span >
             .slides-tab.zoom
               figure
-                a(href='#')
-                  img(src='img/paradise/turistico.jpg', alt='Turistico')
+                a(href='/services')
+                  img(src='img/paradise/services1.jpg', alt='Turistico')
               .slides-text
                 h4
-                  a(href='#') #{lang.index.serviceTwo.name} 
+                  a(href='/services') #{lang.index.serviceTwo.name} 
                 p #{lang.index.serviceTwo.description} 
-                a.read-more(href='#') #{lang.index.readMore} 
+                a.read-more(href='/services') #{lang.index.readMore} 
                   span >
             .slides-tab.zoom
               figure
-                a(href='#')
+                a(href='/services')
                   img(src='img/paradise/nacionales.jpg', alt='Nacionales')
               .slides-text
                 h4
-                  a(href='#') #{lang.index.serviceThree.name} 
+                  a(href='/services') #{lang.index.serviceThree.name} 
                 p #{lang.index.serviceThree.description} 
-                a.read-more(href='#') #{lang.index.readMore} 
+                a.read-more(href='/services') #{lang.index.readMore} 
                   span >
             
       .features
@@ -62,7 +62,7 @@ block content
                   span #{lang.index.features} 
                   h3 #{lang.index.offer.name} 
                 p #{lang.index.offer.description} 
-                a.services-link.button(href='service.html') #{lang.index.ourServices} 
+                a.services-link.button(href='/services') #{lang.index.ourServices} 
             .col-xs-12.col-sm-8.custom-padding
               .row
                 .col-xs-12.col-sm-6

@@ -7,6 +7,8 @@ html(lang='en')
     block css
       link(rel='stylesheet', href='css/style.css')
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Karla:400,700italic,700,400italic')
+      link(href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900', rel='stylesheet', type='text/css')
+      link(href='http://fonts.googleapis.com/css?family=Karla:400,700italic,700,400italic', rel='stylesheet', type='text/css')
       link(rel='stylesheet', href='css/font-awesome.min.css')
       link(rel='stylesheet', href='css/bootstrap.css')
       link(rel='stylesheet', href='rs-plugin/css/settings.css', media='screen')
@@ -18,23 +20,19 @@ html(lang='en')
       link(rel='stylesheet/less', href='css/skin.less')
       
   body
-    //- Loader
     .loader-block
       .loader
 
-    //- Wrapper
     div#wrapper.homepage.homepage-1
-      //- Header
       header#header.header
-        //- Primary header
         .primary-header
           .container
             .row
               .col-xs-12.col-sm-6.hidden-xs
                 .mail
                   img(src='img/icon-mail.png' alt='mail')
-                  span #{lang.layout.email}  
-                    a(href='mailto:mail@company.com') email@some.com
+                  span #{lang.layout.email}:   
+                    a(href='mailto:mail@company.com') dspa29@hotmail.com
               .col-xs-12.col-sm-6.hidden-xs
                 .social-wrap.clearfix
                   a.request(href='#') #{lang.layout.link} 
@@ -43,7 +41,6 @@ html(lang='en')
                       a(href="https://www.facebook.com/Paradise-TOURS-Transportations-110557222612729/", target="_blank")
                         i.fa.fa-facebook
         
-        //- Main header
         .main-header
           .container
             .row
@@ -52,12 +49,10 @@ html(lang='en')
                   ul
                     li
                       img(src='img/iphone.png', alt='Phone')
-                      span.transport
-                        | #{lang.layout.call.first} 
-                        span
-                        | #{lang.layout.call.second}
+                      span.transport #{lang.layout.call.first} 
+                        span #{lang.layout.call.second}
                     li
-                      a(href='tel:5917890123') 591 7890 123
+                      a(href='#') #{lang.layout.phoneNumber}
               .col-xs-12.col-sm-3
                 a.logo(href='/')
                   img.img-logo(src='img/paradise/logo.jpg', alt='Logo')
@@ -68,15 +63,15 @@ html(lang='en')
                       li
                         a(href='/') #{lang.layout.home}
                       li
-                        a(href='#') #{lang.layout.services}
+                        a(href='/services') #{lang.layout.services}
                       li
-                        a(href='#') #{lang.layout.gallery}
+                        a(href='/gallery') #{lang.layout.gallery}
                       li
-                        a(href='#') #{lang.layout.location}
+                        a(href='/location') #{lang.layout.location}
                       li
-                        a(href='#') #{lang.layout.about}
+                        a(href='/about') #{lang.layout.about}
                       li
-                        a(href='#') #{lang.layout.contact}
+                        a(href='/contact') #{lang.layout.contact}
                 .nav-icon
                   span
                   span
@@ -84,7 +79,6 @@ html(lang='en')
 
     block content
 
-    //- Footer area
   footer#footer
     .footer.clearfix
       .container
@@ -97,17 +91,17 @@ html(lang='en')
                 li
                   a(href='/') #{lang.layout.home}
                 li
-                  a(href='#') #{lang.layout.services}
+                  a(href='/services') #{lang.layout.services}
                 li
-                  a(href='#') #{lang.layout.gallery}
+                  a(href='/gallery') #{lang.layout.gallery}
             .quick-list
               ul
                 li
-                  a(href='#') #{lang.layout.location}
+                  a(href='/location') #{lang.layout.location}
                 li
-                  a(href='#') #{lang.layout.about}
+                  a(href='/about') #{lang.layout.about}
                 li
-                  a(href='#') #{lang.layout.contact}
+                  a(href='/contact') #{lang.layout.contact}
           .col-xs-12.col-sm-4
             .our-address
               h5 #{lang.layout.contact}
@@ -117,10 +111,10 @@ html(lang='en')
                 .phone
                   span
                     | #{lang.layout.phone} : 
-                    a(href='tel:+523221166819') +52 322 116 6819
+                    a(href='#') #{lang.layout.phoneNumber}
                   span
                     | #{lang.layout.email} : 
-                    a(href='mail') info@transporttheme.com
+                    a(href='mail') dspa29@hotmail.com
         .row.custom-row
           .col-xs-12.col-sm-5
             .copyright
