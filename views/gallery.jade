@@ -4,10 +4,27 @@ block content
 
   section#section
     .section
-      .gallery
+      .services-details
         .container
           .row
             .col-xs-12
               .heading
-                span #{lang.gallery.our}
+                span(id="lol") #{lang.gallery.our}
                 h2 #{lang.layout.gallery}
+
+          .row
+            .col-xs-12
+              #lightgallery
+                a(href='img/paradise/banner.jpg')
+                  img(src='img/paradise/banner-thumb.jpg', style="margin: 10px;")
+                a(href='img/paradise/banner.jpg')
+                  img(src='img/paradise/banner-thumb.jpg')
+
+      .query
+        .container
+          .row
+            .col-xs-12.col-sm-10
+              h5 #{lang.index.doubts}
+              p #{lang.index.weCanHelp}
+            .col-xs-12.col-sm-2
+              a.contact-us.button(href='contact-us.html') #{lang.index.contactUs}

@@ -297,7 +297,7 @@ body #header.fixed.intelligent.fix .main-header {
 }
 .header {
 	position: relative;
-	z-index: 9999;
+	z-index: 999;
 }
 .primary-header {
 	background: #eaedf0;
