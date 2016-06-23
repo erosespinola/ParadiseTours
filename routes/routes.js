@@ -2,7 +2,6 @@ var fs = require('fs');
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
 router.get('/', function(req, res) {
 	var langFile = 'es.mx.json';
 	fs.readFile('lang/' + langFile, function(err, data) {
@@ -12,13 +11,21 @@ router.get('/', function(req, res) {
 	});	
 });
 
-/* GET services page. */
 router.get('/services', function(req, res) {
 	var langFile = 'es.mx.json';
 	fs.readFile('lang/' + langFile, function(err, data) {
 		if (err) 
 			throw err;
 		res.render('services', { lang: JSON.parse(data) });
+	});	
+});
+
+router.get('/gallery', function(req, res) {
+	var langFile = 'es.mx.json';
+	fs.readFile('lang/' + langFile, function(err, data) {
+		if (err) 
+			throw err;
+		res.render('gallery', { lang: JSON.parse(data) });
 	});	
 });
 

@@ -31,7 +31,7 @@
 			"description": "Vive la experiencia de nuestros recorridos turísticos, riqueza gastronómica y cultural del centro de la ciudad con la calidez que nos caracteriza, de la mano de nuestros guías de turistas certificados por SECTUR."
 		},
 		"serviceThree": {
-			"name": "Translados locales y nacionales",
+			"name": "Traslados locales y nacionales",
 			"description": "Ofrecemos traslados a congresos y convenciones dentro y fuera de la ciudad, transporte de empleados y estudiantes, garantizando un servicio de calidad y seguridad en todo momento."
 		},
 		"readMore": "Leer más",
@@ -65,12 +65,18 @@
 			"career": "Ingeniera"
 		},
 		"doubts": "¿Tienes dudas sobre nuestros servicios?",
-		"weCanHelp": "Podemos ayudarte con todas tus dudas, solamente tienes que contactarnos.",
+		"weCanHelp": "No dudes en contactarnos para cotizar todo tipo de traslados, ya que nuestros servicios son totalmente personalizados.",
 		"contactUs": "Contáctanos"
 	},
 	"services": {
 		"our": "Nuestros",
 		"more": "Encuentra más en nuestra",
-		"gallery": "Descubre más sobre nuestros servicios y transporte en nuestra galería."
+		"gallery": "Descubre más sobre nuestros servicios y transporte en nuestra galería.",
+		"serviceOne": "Recibe tu servicio de  transportación desde tu llegada al aeropuerto hacia tuhotel, asegura tu regreso con servicio y atención personalizada.Disfruta la comodidad de trasladarte en silla de ruedas sin necesidad de moverte, simplemente toma tu lugar con máximas medidas de seguridad. Personal capacitado para hacer de tus traslados una experiencia tranquila y relajada respetando tu espacio, así como el de 5 acompañantes. Recuerda, que contamos con servicio de guía turístico con el que podrás conocer el Puerto, visitar los mejores restaurantes con rampa accesible y disfrutar de las delicias culinarias. Puedes solicitar cualquier servicio adicional para hacer de tu estancia la mejor.",
+		"serviceTwo": "Te invitamos a dar un paseo por el paradisíaco Puerto Vallarta, desde el Malecón, la Iglesia de Nuestra Señora de Guadalupe que es uno de los principales símbolos de la ciudad, los Arcos, la Plaza donde encontrarás comida típica, bailes y música tradicional, el Museo Histórico de la Naval, Mercado Municipal y del Río Cuale para realizar compras de artesanías, ropa de manta, souvenirs, tequila, café y muchas cosas más, el Muelle, La zona romántica, hasta llegar a los Arcos de Mismaloya y observar el bello paisaje que abraza este lugar, rodeado de mar y montaña. Puedes solicitar visitas a lugares específicos como Galerías de Arte, Restaurantes, Destilerías, Clubs nocturnos y Bares de la ciudad, así como a San Sebastián del Oeste un Pueblo Mágico Minero, Sayulita, San Pancho, etc. Con gusto podemos reservar actividades adicionales como: Tirolesa, Avistamiento de Ballenas, Paseo con Delfines, Buceo, Cuatrimotos, entre otros. Nuestros guías certificados pueden sugerir diversas opciones conforme a tus deseos, buscando siempre las mejores opciones para aprovechar al máximo tu estancia.",
+		"serviceThree": "Nuestros vehículos tienen capacidad de hasta 14 pasajeros, permítenos atender los traslados exclusivos para tu evento, boda, congreso, con la seguridad y profesionalismo que nos caracteriza. Ofrecemos servicio para empleados de hotel, empresas y oficinas de gobierno, con control y apego a horarios establecidos. Además de transportación dentro de la República Mexicana. No dudes en cotizar todo tipo de traslados, ya que nuestros servicios son totalmente personalizados."
+	},
+	"gallery": {
+		"our": "Nuestra"
 	}
 }
