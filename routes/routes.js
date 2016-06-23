@@ -5,7 +5,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res) {
 	var langFile = 'es.mx.json';
-	fs.readFile('lang/' + langFile, (err, data) => {
+	fs.readFile('lang/' + langFile, function(err, data) {
 		if (err) 
 			throw err;
 		res.render('index', { lang: JSON.parse(data) });
@@ -15,7 +15,7 @@ router.get('/', function(req, res) {
 /* GET services page. */
 router.get('/services', function(req, res) {
 	var langFile = 'es.mx.json';
-	fs.readFile('lang/' + langFile, (err, data) => {
+	fs.readFile('lang/' + langFile, function(err, data) {
 		if (err) 
 			throw err;
 		res.render('services', { lang: JSON.parse(data) });
