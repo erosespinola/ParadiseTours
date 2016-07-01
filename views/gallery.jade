@@ -9,24 +9,17 @@ block content
           .row
             .col-xs-12
               .heading
-                span(id="lol") #{lang.gallery.our}
+                span(id="gallery") #{lang.gallery.our}
                 h2 #{lang.layout.gallery}
 
           .row
             .col-xs-12
               #lightgallery
-                a(href='img/paradise/banner.jpg')
-                  img(src='img/paradise/banner-thumb.jpg', style="margin: 10px;")
-                a(href='img/paradise/banner.jpg')
-                  img(src='img/paradise/banner-thumb.jpg', style="margin: 10px;")
-                a(href='img/paradise/banner.jpg')
-                  img(src='img/paradise/banner-thumb.jpg', style="margin: 10px;")
-                a(href='img/paradise/banner.jpg')
-                  img(src='img/paradise/banner-thumb.jpg', style="margin: 10px;")
-                a(href='img/paradise/banner.jpg')
-                  img(src='img/paradise/banner-thumb.jpg', style="margin: 10px;")
-                a(href='img/paradise/banner.jpg')
-                  img(src='img/paradise/banner-thumb.jpg', style="margin: 10px;")
+                - var n = 0
+                while n < 50
+                  a(href='img/paradise/gallery/full/' + n + '.jpg')
+                    img(src='img/paradise/gallery/thumb/' + n++ + '_tn.jpg', style="margin: 4px;", class="img-rounded")
+                
 
       .query
         .container
