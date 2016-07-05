@@ -1,12 +1,26 @@
 extends layout
 
 block content
-  .bannercontainer.spacetop
+  .bannercontainer.spacetop.hidden-xs
     .banner
       ul
         li(data-transition='random', data-slotamount='1')
           img(src='img/paradise/gallery/full/11.jpg', alt='Banner', class='rev_slider')
-          .banner-text.hidden-xs
+          .banner-text
+            .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
+              h2(style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;") #{lang.index.banner} 
+            .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
+              a.services-link(href='/services', style="width: 18rem") #{lang.index.ourServices}  
+        li(data-transition='random', data-slotamount='1')
+          img(src='img/paradise/gallery/full/8.jpg', alt='Banner', class='rev_slider')
+          .banner-text
+            .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
+              h2(style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;") #{lang.index.banner} 
+            .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
+              a.services-link(href='/services', style="width: 18rem") #{lang.index.ourServices}  
+        li(data-transition='random', data-slotamount='1')
+          img(src='img/paradise/gallery/full/2.jpg', alt='Banner', class='rev_slider')
+          .banner-text
             .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
               h2(style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;") #{lang.index.banner} 
             .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')

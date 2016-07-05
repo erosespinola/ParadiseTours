@@ -1,6 +1,6 @@
 {
 	"layout": {
-		"email": "Contáctanos por correo:",
+		"email": "Contáctanos por correo",
 		"link": "Más información",
 		"call": {
 			"first": "Lláma ahora para",
@@ -14,7 +14,6 @@
 		"contact": "Contacto",
 		"quick": "Enlaces rápidos",
 		"phone": "Teléfono",
-		"email": "Correo electrónico",
 		"address": "Calle Tai #46, Colonia Aramara, 48314. Puerto Vallarta, Jalisco, México.",
 		"phoneNumber": "(322) 225 0839"
 	},
@@ -78,5 +77,9 @@
 	},
 	"gallery": {
 		"our": "Nuestra"
+	},
+	"about": {
+		"about": "Sobre",
+		"us": "Nosotros"
 	}
 }

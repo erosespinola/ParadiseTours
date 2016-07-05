@@ -4,11 +4,11 @@
 	$('.banner').revolution({
          delay:3000,
          startwidth:960,
-         startheight:500,
+         startheight:620,
          startWithSlide:0,
  
-         fullScreenAlignForce:"on",
-         autoHeight:"on",
+         fullScreenAlignForce:"off",
+         autoHeight:"off",
          minHeight:"off",
  
          shuffle:"on",
@@ -71,9 +71,9 @@
  
          spinned:"spinner4",
  
-         fullWidth:"on",
-         forceFullWidth:"on",
-         fullScreen:"on",
+         fullWidth:"off",
+         forceFullWidth:"off",
+         fullScreen:"off",
          fullScreenOffsetContainer:"#topheader-to-offset",
          fullScreenOffset:"0px",
  

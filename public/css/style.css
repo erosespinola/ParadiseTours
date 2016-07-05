@@ -32,6 +32,11 @@
  26.) Blog 1 page 
  ======================================= */
 
+#map {
+	width: 100%;
+	height: 500px;
+}
+
 /*1.) Homepage 1*/
 .homepage {
 	overflow: hidden;

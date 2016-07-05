@@ -1,0 +1,28 @@
+extends layout
+
+block content
+
+  section#section
+    .section
+      .services-details
+        .container
+          .row
+            .col-xs-12
+              .heading
+                span #{lang.about.about}
+                h3 #{lang.about.us}
+            .col-xs-12
+              .logistics
+                img(src='img/paradise/about.jpg', alt='Abouit us')
+                h4 #{lang.layout.about} 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar sagittis diam, et consequat elit vehicula volutpat. In in pulvinar ipsum, a imperdiet elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed gravida condimentum ultricies. Aliquam quam dui, lacinia nec mi id, vehicula fermentum nulla. Morbi fermentum accumsan sem aliquet maximus. In aliquam sit amet lacus a luctus. Vivamus sagittis vel lectus vel mollis. Etiam faucibus augue et tempor blandit. Sed vitae urna quis leo varius commodo. Aliquam est odio, interdum et tristique vitae, blandit vel turpis. Aenean scelerisque dui at ultricies blandit. Morbi id egestas lectus, sed pulvinar nisi. Ut feugiat molestie lacus, eu commodo augue blandit eget.
+                //- p #{lang.about.text}
+
+      .query
+        .container
+          .row
+            .col-xs-12.col-sm-10
+              h5 #{lang.index.doubts}
+              p #{lang.index.weCanHelp}
+            .col-xs-12.col-sm-2
+              a.contact-us.button(href='contact-us.html') #{lang.index.contactUs}

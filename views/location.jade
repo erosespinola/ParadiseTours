@@ -1,0 +1,26 @@
+extends layout
+
+block content
+
+  section#section
+    .section
+      .services-details
+        .container
+          .row
+            .col-xs-12
+              .heading
+                span(id="gallery") #{lang.gallery.our}
+                h2 #{lang.layout.location}
+
+          .row
+            .col-xs-12
+                #map
+
+      .query
+        .container
+          .row
+            .col-xs-12.col-sm-10
+              h5 #{lang.index.doubts}
+              p #{lang.index.weCanHelp}
+            .col-xs-12.col-sm-2
+              a.contact-us.button(href='contact-us.html') #{lang.index.contactUs}

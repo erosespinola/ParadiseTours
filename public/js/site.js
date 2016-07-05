@@ -2,7 +2,7 @@
 	var isMobile;
 	var stickOnScroll;
 	$(document).ready(function() {
-
+		
 		//Header Option
 		$('#header').addClass('normal');
 		//Choose Here Class Name (normal or fixed or intelligent);
