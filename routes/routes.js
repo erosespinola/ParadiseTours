@@ -29,15 +29,6 @@ router.get('/gallery', function(req, res) {
 	});	
 });
 
-router.get('/location', function(req, res) {
-	var langFile = 'es.mx.json';
-	fs.readFile('lang/' + langFile, function(err, data) {
-		if (err) 
-			throw err;
-		res.render('location', { lang: JSON.parse(data) });
-	});	
-});
-
 router.get('/about', function(req, res) {
 	var langFile = 'es.mx.json';
 	fs.readFile('lang/' + langFile, function(err, data) {
@@ -46,5 +37,15 @@ router.get('/about', function(req, res) {
 		res.render('about', { lang: JSON.parse(data) });
 	});	
 });
+
+router.get('/contact', function(req, res) {
+	var langFile = 'es.mx.json';
+	fs.readFile('lang/' + langFile, function(err, data) {
+		if (err) 
+			throw err;
+		res.render('contact', { lang: JSON.parse(data) });
+	});	
+});
+
 
 module.exports = router;

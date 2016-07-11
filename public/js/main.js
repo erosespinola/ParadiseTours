@@ -17,3 +17,25 @@ window.initMap = function() {
     title: 'Paradise Tours Transportations'
   });
 }
+
+window.send = function() {
+  var email = $('#email');
+  var name = $('#name');
+  var subject = $('#subject');
+  var message = $('#message');
+
+  
+  $("#email-group").removeClass("has-error");
+  $("#name-group").removeClass("has-error");
+  $("#subject-group").removeClass("has-error");
+  $("#message-group").removeClass("has-error");
+    
+  if (!email.val())
+    $("#email-group").addClass("has-error");
+  if (!name.val())
+    $("#name-group").addClass("has-error");
+  if (!subject.val())
+    $("#subject-group").addClass("has-error");
+  if (!message.val())
+    $("#message-group").addClass("has-error");
+}

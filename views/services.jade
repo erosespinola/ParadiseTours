@@ -13,7 +13,8 @@ block content
                 h3 #{lang.layout.services}
             .col-xs-12
               .logistics
-                img(src='img/paradise/services1.png', alt='Services')
+                .banner.service-banner.spacetop
+                  .banner-image-plane-services.parallax
                 h4 #{lang.index.serviceOne.name} 
                 p #{lang.services.serviceOne}
 
@@ -47,28 +48,28 @@ block content
             .col-xs-12.col-sm-3
               .heading
                 span #{lang.services.more}
-                h3 #{lang.layout.services}
+                h3 #{lang.layout.gallery}
               p #{lang.services.gallery}
             .col-xs-12.col-sm-9
               #more-slides.more-slides
                 .more-tab.zoom
                   figure
                     a(href='/gallery')
-                      img(src='img/paradise/sectur.png', alt='')
+                      img(src='img/paradise/sectur.png', alt='Sectur')
                   .more-text
                     h6
                       a(href='/gallery') #{lang.index.featureOne}
                 .more-tab.zoom
                   figure
                     a(href='/gallery')
-                      img(src='img/paradise/accesible.jpg', alt='')
+                      img(src='img/paradise/accesible.jpg', alt='Accesible')
                   .more-text
                     h6
                       a(href='/gallery') #{lang.index.featureTwo}
                 .more-tab.zoom
                   figure
                     a(href='/gallery')
-                      img(src='img/paradise/turistico2.jpg', alt='')
+                      img(src='img/paradise/turistico2.jpg', alt='Turistico')
                   .more-text
                     h6
                       a(href='/gallery') #{lang.index.featureThree}

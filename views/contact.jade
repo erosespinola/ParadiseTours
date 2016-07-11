@@ -1,0 +1,29 @@
+extends layout
+
+block content
+
+  section#section
+    .section
+      .services-details
+        .container
+          .row
+            .col-xs-12
+              .heading
+                span #{lang.contact.our}
+                h3 #{lang.layout.contact}
+    
+            form(name='contactForm')
+              .col-xs-6
+                .form-group(id="name-group")
+                  input.form-control(type="text", id="name", placeholder="#{lang.contact.name}", style="margin-bottom: 10px;")
+                .form-group(id="email-group")
+                  input.form-control(type="text", id="email", placeholder="#{lang.contact.email}", style="margin-bottom: 10px;")
+                .form-group(id="subject-group")
+                  input.form-control(type="text", id="subject", placeholder="#{lang.contact.subject}", style="margin-bottom: 10px;")
+                .form-group(id="message-group")
+                  textarea.form-control(rows=10, id="message", style="resize: none;", placeholder="#{lang.contact.message}")
+                br
+                a.services-link.button(href='#', style="float: right;", onclick="send()") #{lang.contact.send}
+              .col-xs-6
+                #map()
+            

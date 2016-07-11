@@ -18,7 +18,7 @@
 		"phoneNumber": "(322) 225 0839"
 	},
 	"index": {
-		"banner": "Transporte turístico accesible de lujo.",
+		"banner": "Transporte accesible turístico de lujo.",
 		"ourServices": "Nuestros servicios",
 		"transportServices": "Servicios de transporte",
 		"serviceOne": {
@@ -81,5 +81,13 @@
 	"about": {
 		"about": "Sobre",
 		"us": "Nosotros"
+	},
+	"contact": {
+		"our": "Nuestro",
+		"name": "Nombre",
+		"email": "Email",
+		"subject": "Tema",
+		"message": "Mensaje",
+		"send": "Enviar"
 	}
 }

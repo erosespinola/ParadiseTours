@@ -44,6 +44,7 @@
 
 /*Styling for banner section*/
 .banner {
+	height: 560px !important;
 	position: relative;
 }
 .about .banner-image {
@@ -363,7 +364,7 @@ margin: 0 0 0 16px;
 	position: absolute;
 	height: 100%;
 	float: left;
-	background: url("../img/paradise/accesible.jpg") no-repeat;
+	background: url("../img/paradise/gallery/full/10.jpg") no-repeat;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -1556,10 +1557,24 @@ width: 263px;
 	top: 0;
 }
 /*7.) Blog*/
-.banner-image-plane {
+.banner-image-plane-services {
 	width: 100%;
-	height: 298px;
-	background: url("../img/service-detail-banner.jpg") no-repeat;
+	height: 500px;
+	background: url("../img/paradise/gallery/full/6.jpg") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.banner-image-plane-about {
+	width: 100%;
+	height: 500px;
+	background: url("../img/paradise/gallery/full/7.jpg") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.banner-image-plane-contact {
+	width: 100%;
+	height: 500px;
+	background: url("../img/paradise/gallery/full/10.jpg") no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
