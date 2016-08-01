@@ -16,7 +16,7 @@ window.initMap = function() {
     map: map,
     title: 'Paradise Tours Transportations'
   });
-}
+};
 
 window.send = function() {
   var email = $('#email');
@@ -38,4 +38,6 @@ window.send = function() {
     $("#subject-group").addClass("has-error");
   if (!message.val())
     $("#message-group").addClass("has-error");
-}
+};
+
+localStorage['lang'] = 'es';
