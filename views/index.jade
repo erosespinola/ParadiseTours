@@ -10,21 +10,21 @@ block content
             .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
               h2(style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;") #{lang.index.banner} 
             .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
-              a.services-link(href='/services', style="width: 18rem") #{lang.index.ourServices}  
+              a.services-link(href='/services?lang=' + langVal, style="width: 18rem") #{lang.index.ourServices}  
         li(data-transition='random', data-slotamount='1')
           img(src='img/paradise/gallery/full/11.jpg', alt='Banner', class='rev_slider')
           .banner-text
             .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
               h2(style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;") #{lang.index.banner} 
             .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
-              a.services-link(href='/services', style="width: 18rem") #{lang.index.ourServices}  
+              a.services-link(href='/services?lang=' + langVal, style="width: 18rem") #{lang.index.ourServices}  
         li(data-transition='random', data-slotamount='1')
           img(src='img/paradise/gallery/full/18.jpg', alt='Banner', class='rev_slider')
           .banner-text
             .caption.sfb.big_orange.clearfix(data-x='100', data-y='350', data-speed='500', data-start='1900', data-easing='Power4.easeInOut')
               h2(style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;") #{lang.index.banner} 
             .caption.lfr.medium_grey(data-x='left', data-y='center', data-speed='300', data-start='2000')
-              a.services-link(href='/services', style="width: 18rem") #{lang.index.ourServices}  
+              a.services-link(href='/services?lang=' + langVal, style="width: 18rem") #{lang.index.ourServices}  
 
   section#section
     .section
@@ -133,14 +133,12 @@ block content
                 p #{lang.index.firstTestimony.title}
                 footer
                   h6 #{lang.index.firstTestimony.name}
-                    span #{lang.index.firstTestimony.career}
             .feedback
               blockquote.custom-quote
                 span.fa.fa-quote-left.custom-fa
                 p #{lang.index.secondTestimony.title}
                 footer
                   h6 #{lang.index.secondTestimony.name}
-                    span #{lang.index.secondTestimony.career}
       
       .query
         .container

@@ -1,0 +1,96 @@
+{
+	"layout": {
+		"email": "Contact us by email",
+		"link": "More information",
+		"call": {
+			"first": "Call now for your",
+			"second": "transportation"
+		},
+		"home": "Home",
+		"services": "Services",
+		"gallery": "Gallery",
+		"location": "Location",
+		"about": "About us",
+		"contact": "Contact",
+		"quick": "Quick links",
+		"phone": "Phone",
+		"address": "Calle Tai #46, Colonia Aramara, 48314. Puerto Vallarta, Jalisco, México.",
+		"phoneNumber": "(322) 116 6819 or (322) 143 8153",
+        "en": "English",
+        "es": "Español"
+	},
+	"index": {
+		"banner": "Deluxe accessible transportation.",
+		"ourServices": "Our services",
+		"transportServices": "Our transport services",
+		"serviceOne": {
+			"name": "Accessible transportation",
+			"description": "Enjoy your time in Bahía de Banderas with a vehicle adapted with hydraulic lift of maximum safety and protection and unique attention."
+		},
+		"serviceTwo": {
+			"name": "Sightseeing tours",
+			"description": "Experience the best sightseeing tours with our cultural and culinary richness of the city with certified tourist guides by SECTUR and the human warmth that characterize us."
+		},
+		"serviceThree": {
+			"name": "Local and national transportation",
+			"description": "We offer transportation services for employees, students, events, congress and conventions in and outside the city, we guarantee quality and safety all the time."
+		},
+		"readMore": "Read more",
+		"features": "Features",
+		"offer": {
+			"name": "Unique and quick solutions for your transportation",
+			"description": "We offer all kind of accessible deluxe transportation with bilingual personalized attention."
+		},
+		"featureOne": "Certified tourist guides by SECTUR",
+		"featureTwo": "Hydraulic ramp",
+		"featureThree": "Deluxe shuttles",
+		"featureFour": "Personalized attention",
+		"aboutUs": {
+			"title": "About us",
+			"company": "Paradise Tours",
+			"description": "We focus on satisfy and overpass the expectations of our visitors, as an alternative of  accessible tourism, our vehicles are in perfect conditions to offer a comfortable transportation adapted for special needs."
+		},
+		"ourMission": "Our mission",
+		"mission": "Provide deluxe, accessible, reliable and quality transportation service within a framework of comfort and strict safety measures for our local, national and foreign customers with certified touristic guides to ensure a unique experience.",
+		"ceoMessage": "Message from Rafael Maldonado, founder.",
+		"people": "What people think?",
+		"testimony": "Testimony",
+		"firstTestimony": {
+			"title": "I am very happy with your prompt response, I had a great time! Thank you Rafael, I will recommend it.",
+			"name": "Richard Cain",
+			"career": ""
+		},
+		"secondTestimony": {
+			"title": "Una experiencia única el visitar la Sierra Huichola en el estado de Nayarit en compañía de mi familia, comprar artesanías y convivir con la comunidad.",
+			"name": "Miriam Gantt",
+			"career": ""
+		},
+		"doubts": "Doubts about out services?",
+		"weCanHelp": "Please do not hesitate in contact us for all kind of transportation, our services are totally customized.",
+		"contactUs": "Contact us"
+	},
+	"services": {
+		"our": "Our",
+		"more": "Find more in the",
+		"gallery": "Find more abour our services in the gallery.",
+		"serviceOne": "Prepare your transportation service from the airport at your arrival date to your hotel, and ensure your way back with specialized attention. Enjoy the transportation without moving from your wheelchair, just relax and feel safe with the security belt attached to the chair. Our people is qualified to offer a calm trip respecting your personal space and for other 5 attendants. Don’t forget that we provide tourist guide services to visit the best places and ramp access restaurants for the culinary experience. Feel free to request any additional service to make your best time in paradise.",
+		"serviceTwo": "We invite you to see the paradise of Puerto Vallarta, from the malecon, the church “Nuestra Señora de Guadalupe”, one of the main symbol of the city, the Archs, the Main Square where you can find authentic food, dance performance and traditional music, the Historical Navy Museum, the Flea Market to buy art craft, clothes, souvenirs, tequila, coffee, souvenirs and much more, walk the pier, visit and gave a great dinner in the Romantic Zone at Old Vallarta, and see the view of Mismaloya Archs surrounded by ocean and mountains. You can request specific places to visit, like Art Galeries, Restaurants, Distillery, Night Clubs, Bars, and places nearby like San Sebastian del Oeste, a Mining Magic Town, Sayulita and San Pancho, surfer destinations. We are pleased to book activities like: Canopy, Whale watching, Swimming with Dolphins, Scuba Diving, ATV's, and much more. Our certified tourist guides can suggest activities according your ideas, looking always the best options to take advantage of your stay.",
+		"serviceThree": "Our vehicles are equipped for 14 passengers, let us provide exclusive transportation for your event, weddings, congress, with the safety and professionalism and characterize us. We offer service for hotel employees, companies, government office, with strict control of set schedule. You can book services all around México. Please do not hesitate in contact us for any kind of transportation service, because all of them are totally customized."
+	},
+	"gallery": {
+		"our": "Our"
+	},
+	"about": {
+		"about": "About",
+		"us": "Us",
+        "text": "We are a family business, founded by the head of the family Rafael Maldonado, who has more than 20 years of experience with transportation and customer service, bilingual and certified tourist guide by SECTUR. We focus on satisfy and overpass the expectations of our visitors, as an alternative of  accessible tourism, our vehicles are in perfect conditions to offer a comfortable transportation adapted for special needs. Committed with the safety, comfort, quality and human warmth that characterizes us, we continue growing and be present in our client’s thoughts."
+	},
+	"contact": {
+		"our": "Our",
+		"name": "Name",
+		"email": "Email",
+		"subject": "Subject",
+		"message": "Message",
+		"send": "Send"
+	}
+}

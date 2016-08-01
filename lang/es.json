@@ -15,7 +15,9 @@
 		"quick": "Enlaces rápidos",
 		"phone": "Teléfono",
 		"address": "Calle Tai #46, Colonia Aramara, 48314. Puerto Vallarta, Jalisco, México.",
-		"phoneNumber": "(322) 225 0839"
+		"phoneNumber": "(322) 225 0839",
+		"en": "English",
+        "es": "Español"
 	},
 	"index": {
 		"banner": "Transporte accesible turístico de lujo.",
@@ -51,17 +53,17 @@
 		"ourMission": "Nuestra misión",
 		"mission": "Proporcionar un servicio de transporte accesible de lujo, confiable y de calidad, en un marco de comodidad y estrictas medidas de seguridad para nuestros clientes locales, nacionales y extranjeros con guías de turistas certificados que garantizan una experiencia única e inigualable.",
 		"ceoMessage": "Mensaje de Rafael Maldonado, fundador.",
-		"people": "Qué opina la gente",
+		"people": "¿Qué opina la gente?",
 		"testimony": "Testimonios",
 		"firstTestimony": {
-			"title": "Primer testimonio",
-			"name": "John Doe",
-			"career": "Diseñador"
+			"title": "I am very happy with your prompt response, I had a great time! Thank you Rafael, I will recommend it.",
+			"name": "Richard Cain",
+			"career": ""
 		},
 		"secondTestimony": {
-			"title": "Segundo testimonio",
-			"name": "Alicia Doe",
-			"career": "Ingeniera"
+			"title": "Una experiencia única el visitar la Sierra Huichola en el estado de Nayarit en compañía de mi familia, comprar artesanías y convivir con la comunidad.",
+			"name": "Miriam Gantt",
+			"career": ""
 		},
 		"doubts": "¿Tienes dudas sobre nuestros servicios?",
 		"weCanHelp": "No dudes en contactarnos para cotizar todo tipo de traslados, ya que nuestros servicios son totalmente personalizados.",
@@ -80,7 +82,8 @@
 	},
 	"about": {
 		"about": "Sobre",
-		"us": "Nosotros"
+		"us": "Nosotros",
+		"text": "Somos una empresa familiar fundada por Rafael Maldonado que cuenta con más de veinte años de experiencia en el ramo de la transportación y servicio al cliente, con atención bilingüe y certificación como guía de turistas de SECTUR. Estamos enfocados en satisfacer y superar las expectativas de nuestros visitantes, siendo una alternativa de turismo accesible, con vehículos equipados en perfectas condiciones para el traslado de personas con capacidades diferentes. Comprometidos siempre con la seguridad, comodidad, empatía  y calidez que nos caracteriza logramos crecer y estar presentes en cada uno de nuestros clientes."
 	},
 	"contact": {
 		"our": "Nuestro",
