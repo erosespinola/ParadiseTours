@@ -20,7 +20,7 @@ html(lang='en')
       link(rel='stylesheet', href="css/lg/lightgallery.css")
       link(rel='stylesheet/less', href='css/skin.less')
       
-  body
+  body(ng-app="mainApp", ng-controller="mainController")
     .loader-block
       .loader
 
@@ -36,7 +36,7 @@ html(lang='en')
                     a(href='mailto:dspa29@hotmail.com') dspa29@hotmail.com
               .col-xs-12.col-sm-6.hidden-xs
                 .social-wrap.clearfix
-                  a.request(href='#', onclick='') #{lang.layout.en}
+                  a.request(ng-href='#', ng-click="changeLang()") {{fullLang}}
                   ul.social
                     li
                       a(href="https://www.facebook.com/Paradise-TOURS-Transportations-110557222612729/", target="_blank")
@@ -55,22 +55,22 @@ html(lang='en')
                     li
                       a(href='#') #{lang.layout.phoneNumber}
               .col-xs-12.col-sm-3
-                a.logo(href='/')
+                a.logo(ng-href='/?lang={{lang}}')
                   img.img-logo(src='img/paradise/logo.jpg', alt='Logo')
               .col-xs-12.col-sm-9.custom-nav
                 nav
                   #cssmenu
                     ul.navigation
                       li
-                        a(href='/') #{lang.layout.home}
+                        a(ng-href='/?lang={{lang}}') #{lang.layout.home}
                       li
-                        a(href='/services') #{lang.layout.services}
+                        a(ng-href='/services?lang={{lang}}') #{lang.layout.services}
                       li
-                        a(href='/gallery') #{lang.layout.gallery}
+                        a(ng-href='/gallery?lang={{lang}}') #{lang.layout.gallery}
                       li
-                        a(href='/about') #{lang.layout.about}
+                        a(ng-href='/about?lang={{lang}}') #{lang.layout.about}
                       li
-                        a(href='/contact') #{lang.layout.contact}
+                        a(ng-href='/contact?lang={{lang}}') #{lang.layout.contact}
                 .nav-icon
                   span
                   span
@@ -88,19 +88,17 @@ html(lang='en')
             .quick-list
               ul
                 li
-                  a(href='/') #{lang.layout.home}
+                  a(ng-href='/?lang={{lang}}') #{lang.layout.home}
                 li
-                  a(href='/services') #{lang.layout.services}
+                  a(ng-href='/services?lang={{lang}}') #{lang.layout.services}
                 li
-                  a(href='/gallery') #{lang.layout.gallery}
+                  a(ng-href='/gallery?lang={{lang}}') #{lang.layout.gallery}
             .quick-list
               ul
                 li
-                  a(href='/location') #{lang.layout.location}
+                  a(ng-href='/about?lang={{lang}}') #{lang.layout.about}
                 li
-                  a(href='/about') #{lang.layout.about}
-                li
-                  a(href='/contact') #{lang.layout.contact}
+                  a(ng-href='/contact?lang={{lang}}') #{lang.layout.contact}
           .col-xs-12.col-sm-4
             .our-address
               h5 #{lang.layout.contact}
@@ -123,6 +121,7 @@ html(lang='en')
 
     block js
       script(type="text/javascript", src="js/jquery-1.11.3.min.js")
+      script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js")
       script(type="text/javascript", src="js/less.js")
       script(type="text/javascript", src="js/owl.carousel.js")
       script(type="text/javascript", src="js/jquery.selectbox-0.2.min.js")
@@ -136,4 +135,6 @@ html(lang='en')
       script(type="text/javascript", src="lg/js/lg-thumbnail.js")
       script(type="text/javascript", src="lg/js/lg-fullscreen.js")
       script(type="text/javascript", src="js/main.js") 
+      script(type="text/javascript", src="controller/app.js")
+      script(type="text/javascript", src="controller/main.js")
       script(async, defer, src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB1nc6jXIzgEIBH4KbjeN95p1B4wR-bLpg&callback=initMap')

@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res) {
 	var lang = req.query.lang;
 	if (lang !== 'en' && lang !== 'es')
-		lang = 'en';
+		lang = 'es';
 	var langFile = lang + '.json';
 	fs.readFile('lang/' + langFile, function(err, data) {
 		if (err) 
@@ -17,7 +17,7 @@ router.get('/', function(req, res) {
 router.get('/services/', function(req, res) {
 	var lang = req.query.lang;
 	if (lang !== 'en' && lang !== 'es')
-		lang = 'en';
+		lang = 'es';
 	var langFile = lang + '.json';
 	fs.readFile('lang/' + langFile, function(err, data) {
 		if (err) 
@@ -29,7 +29,7 @@ router.get('/services/', function(req, res) {
 router.get('/gallery/', function(req, res) {
 	var lang = req.query.lang;
 	if (lang !== 'en' && lang !== 'es')
-		lang = 'en';
+		lang = 'es';
 	var langFile = lang + '.json';
 	fs.readFile('lang/' + langFile, function(err, data) {
 		if (err) 
@@ -41,7 +41,7 @@ router.get('/gallery/', function(req, res) {
 router.get('/about/', function(req, res) {
 	var lang = req.query.lang;
 	if (lang !== 'en' && lang !== 'es')
-		lang = 'en';
+		lang = 'es';
 	var langFile = lang + '.json';
 	fs.readFile('lang/' + langFile, function(err, data) {
 		if (err) 
@@ -53,7 +53,7 @@ router.get('/about/', function(req, res) {
 router.get('/contact/', function(req, res) {
 	var lang = req.query.lang;
 	if (lang !== 'en' && lang !== 'es')
-		lang = 'en';
+		lang = 'es';
 	var langFile = lang + '.json';
 	fs.readFile('lang/' + langFile, function(err, data) {
 		if (err) 
