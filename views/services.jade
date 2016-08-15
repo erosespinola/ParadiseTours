@@ -54,25 +54,25 @@ block content
               #more-slides.more-slides
                 .more-tab.zoom
                   figure
-                    a(href='/gallery')
+                    a(ng-href='/gallery?lang={{lang}}')
                       img(src='img/paradise/sectur.png', alt='Sectur')
                   .more-text
                     h6
-                      a(href='/gallery') #{lang.index.featureOne}
+                      a(ng-href='/gallery?lang={{lang}}') #{lang.index.featureOne}
                 .more-tab.zoom
                   figure
-                    a(href='/gallery')
+                    a(ng-href='/gallery?lang={{lang}}')
                       img(src='img/paradise/accesible.jpg', alt='Accesible')
                   .more-text
                     h6
-                      a(href='/gallery') #{lang.index.featureTwo}
+                      a(ng-href='/gallery?lang={{lang}}') #{lang.index.featureTwo}
                 .more-tab.zoom
                   figure
-                    a(href='/gallery')
+                    a(ng-href='/gallery?lang={{lang}}')
                       img(src='img/paradise/turistico2.jpg', alt='Turistico')
                   .more-text
                     h6
-                      a(href='/gallery') #{lang.index.featureThree}
+                      a(ng-href='/gallery?lang={{lang}}') #{lang.index.featureThree}
 
       .query
         .container
@@ -81,4 +81,4 @@ block content
               h5 #{lang.index.doubts}
               p #{lang.index.weCanHelp}
             .col-xs-12.col-sm-2
-              a.contact-us.button(href='contact-us.html') #{lang.index.contactUs}
+              a.contact-us.button(ng-href='/contact?lang={{lang}}') #{lang.index.contactUs}
