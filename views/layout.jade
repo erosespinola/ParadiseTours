@@ -19,7 +19,7 @@ html(lang='en')
       link(rel='stylesheet', href='css/responsive.css')
       link(rel='stylesheet', href="css/lg/lightgallery.css")
       link(rel='stylesheet/less', href='css/skin.less')
-      
+
   body(ng-app="mainApp", ng-controller="mainController")
     .loader-block
       .loader
@@ -32,7 +32,7 @@ html(lang='en')
               .col-xs-12.col-sm-6.hidden-xs
                 .mail
                   img(src='img/icon-mail.png' alt='mail')
-                  span #{lang.layout.email}:   
+                  span #{lang.layout.email}:
                     a(href='mailto:dspa29@hotmail.com') dspa29@hotmail.com
               .col-xs-12.col-sm-6.hidden-xs
                 .social-wrap.clearfix
@@ -41,7 +41,7 @@ html(lang='en')
                     li
                       a(href="https://www.facebook.com/Paradise-TOURS-Transportations-110557222612729/", target="_blank")
                         i.fa.fa-facebook
-        
+
         .main-header
           .container
             .row
@@ -50,13 +50,13 @@ html(lang='en')
                   ul
                     li
                       img(src='img/iphone.png', alt='Phone')
-                      span.transport #{lang.layout.call.first} 
+                      span.transport #{lang.layout.call.first}
                         span #{lang.layout.call.second}
                     li
                       a(href='#') #{lang.layout.phoneNumber}
               .col-xs-12.col-sm-3
                 a.logo(ng-href='/?lang={{lang}}')
-                  img.img-logo(src='img/paradise/logo.jpg', alt='Logo')
+                  img.img-logo(src='img/paradise/logo1.png', alt='Logo')
               .col-xs-12.col-sm-9.custom-nav
                 nav
                   #cssmenu
@@ -107,17 +107,17 @@ html(lang='en')
                 address #{lang.layout.address}
                 .phone
                   span
-                    | #{lang.layout.phone} : 
+                    | #{lang.layout.phone} :
                     a(href='#') #{lang.layout.phoneNumber}
                   span
-                    | #{lang.layout.email} : 
+                    | #{lang.layout.email} :
                     a(href='mail') dspa29@hotmail.com
         .row.custom-row
           .col-xs-12.col-sm-5
             .copyright
               span
-                | Copyright 2015. All Rights Reserved by 
-                a(href='/') Paradise Tours.
+                | Copyright 2015. All Rights Reserved by
+                a(href='/')  Paradise Tours.
 
     block js
       script(type="text/javascript", src="js/jquery-1.11.3.min.js")
@@ -134,7 +134,7 @@ html(lang='en')
       script(type="text/javascript", src="lg/js/lightgallery.js")
       script(type="text/javascript", src="lg/js/lg-thumbnail.js")
       script(type="text/javascript", src="lg/js/lg-fullscreen.js")
-      script(type="text/javascript", src="js/main.js") 
+      script(type="text/javascript", src="js/main.js")
       script(type="text/javascript", src="controller/app.js")
       script(type="text/javascript", src="controller/main.js")
       script(async, defer, src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB1nc6jXIzgEIBH4KbjeN95p1B4wR-bLpg&callback=initMap')
